@@ -11,15 +11,5 @@
         
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="indraadp" revision="13" clone-depth="1" />
-        
-        <!-- Hals -->
-       <remove-project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_display" />
-       <remove-project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_media" />
-       <remove-project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_audio" />
-
-       <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_sm8250_display" remote="sm6115-dev" revision="9.15.r1-02800" />
-       <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_sm8250_media" remote="sm6115-dev" revision="9.15.r1-02800" />
-       <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_sm8250_audio" remote="sm6115-dev" revision="9.15.r1-02800" />
-
-        
+            
 </manifest>
