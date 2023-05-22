@@ -7,14 +7,12 @@
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="indraadp" revision="superior" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="prebuilt_vendor_juice" remote="indraadp" revision="A11" clone-depth="1" />
-        <project path="kernel/xiaomi/juice" name="kernel_xiaomi_juice" remote="indraadp" revision="test" clone-depth="1" />
+        <project path="kernel/xiaomi/juice" name="stormbreaker_kernel_juice_a11" remote="indraadp" revision="test" clone-depth="1" />
         
-        <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="indraadp" revision="13" clone-depth="1" />
-        
-        <!-- Remove -->
-        <remove-project path="platform_testing" name="android_platform_testing" />
-        
-        <project path="platform_testing" name="android_platform_testing" remote="indraadp" revision="eleven" clone-depth="1" />
+        <!-- Remove and replace stuff-->
+        <remove-project name="android_vendor_superior" />
+        <remove-project name="android_platform_testing" />
+        <project path="vendor/superior" name="android_vendor_superior_1" remote="indraadp" revision="eleven" clone-depth="1" />
+        <project path="platform_testing" name="android_platform_testing_1" remote="indraadp" revision="eleven" clone-depth="1" />
 
 </manifest>
